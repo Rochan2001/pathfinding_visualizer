@@ -1,11 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "./components/PathFinding";
+import PathFinding from "./components/PathFinding";
 
 function App() {
-  return (
-    <div>
-       <canvas id="gameCanvas" width="300" height="300">&lt;canvas>  );
-    </div>
+  return <PathFinding></PathFinding>;
 }
 
 export default App;
